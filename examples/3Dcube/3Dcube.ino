@@ -90,7 +90,7 @@ void rotateZ(int angle) {
     Xn = (vectors[i][0] * cosa) - (vectors[i][1] * sina);
     Yn = (vectors[i][0] * sina) + (vectors[i][1] * cosa);
     vectors[i][0] = Xn;
-    vectors[i][1] = Yn;
+    vectors[i][1] = Yn; 
   }
 }
 
